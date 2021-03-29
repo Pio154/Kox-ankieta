@@ -1,0 +1,93 @@
+<!doctype html>
+
+<head>
+
+	<title>Formularz</title>
+	<html lang="pl">
+	<meta charset="UTF-8">
+	<meta name="author" content="Piotr Wojciechowski">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+</head>
+
+<body background="bg.jpg">
+	<center>
+	<div id="container">
+		
+		<div id="logo">
+		<h1><img src="logo.png"></h1>
+		</div>
+		
+		<div id="content">
+			<form>
+			<p> Podaj swoje imię:<input type="text">
+			<p> oraz nazwisko:<input type="text">
+			</form>
+			<br>
+			<form>
+			<p> 1. Czy mieszkasz w Warszawie?<br><br>
+			<input type="radio" name="home" value="tak">Tak
+			<input type="radio" name="home" value="nie">Nie
+			<br>
+			<p> 2. Jeśli tak, to czy lokalizacja naszej restauracji jest dla ciebie wygodna?<br><br>
+			<input type="radio" name="loka" value="tak2">Tak
+			<input type="radio" name="loka" value="nie2">Nie
+			<input type="radio" name="loka" value="nwm">Nie mieszkam w Warszawie
+			<p> 3. Czy poczułeś/aś w naszej restauracji swojską atmosferę?<br><br>
+			<input type="radio" name="atmo" value="tak3">Tak
+			<input type="radio" name="atmo" value="nie3">Nie
+			<br>
+			<p> 4. Jeśli nie, to czego ci brakowało? (jeśli tak, to pozostaw puste miejsce)<br><br>
+			<input type="text">
+			<br>
+			<p> 5. Czy w innych restauracjach doświadczyłeś/aś owej atmosfery?<br><br>
+			<input type="radio" name="inni" value="tak4">Tak
+			<input type="radio" name="inni" value="nie4">Nie
+			<br>
+			<p> 6. Czy gdy przychodziłeś/aś do naszego lokalu, miałeś/aś wyższe oczekiwania,<br> ze względu na nazwisko Gessler widniejące w wielu opisach w internecie?<br><br>
+			<input type="radio" name="nazw" value="tak5">Tak
+			<input type="radio" name="nazw" value="nie5">Nie
+			<input type="radio" name="nazw" value="nwm2">Nie zwróciłem/am na to uwagi
+			<p> 7. Czy nazwa naszej restauracji zapadła ci w pamięć?<br><br>
+			<input type="radio" name="nazwa" value="tak6">Tak
+			<input type="radio" name="nazwa" value="nie6">Nie<br>
+			<p> 8. W ilu innych restauracjach zauważyłeś/aś podobny poziom jakość?<br>
+			<select name="jakość">
+			<option>***</option>
+			<option>0</option>
+			<option>1-3</option>
+			<option>4-6</option>
+			<option>6-8</option>
+			<option>8+</option>
+			</select><br>
+			<p> 9. W skali od 1, do 10, jak oceniłbyś/oceniłabyś naszą restaurację?<br>
+			<select name="ocena">
+			<option>***</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			</select>
+			<br>
+			<p> Jeśli masz jakiekolwiek dodatkowe uwagi dotyczące naszego lokalu, napisz je poniżej!<br><br>
+			<input type="text"><br>
+			<input type="reset" value="Zresetuj"> &nbsp;&nbsp;
+			<input type="submit" value="Wyślij">
+			</form>
+		
+		</div>
+	
+		<div id="footer">
+		Ankieta stworzona przez Piotra Wojciechowskiego &copy;
+		</div>
+	
+	
+	</div>
+
+</body>
